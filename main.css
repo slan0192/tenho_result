@@ -1,0 +1,119 @@
+body {
+	background-color: #f0f8ff;
+	width: 1300px;
+}
+
+div.head {
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 0px;
+	left: 50px;
+	z-index: 0;
+	background-color: #f0f8ff;
+}
+
+div.menu {
+	width: 200px;
+	height: 85%;
+	position: fixed;
+	top: 80px;
+	z-index: 0;
+	overflow-y: scroll;
+}
+
+.main {
+	width: 800px;
+	height: 85%;
+	margin: 100px auto;
+}
+
+h1.title {
+	display: inline-block;
+	color: #191970;
+	text-shadow: 7px 7px 4px #999999;
+	font-size:50px;
+	margin-top: 10px;
+}
+
+h2.subtitle {
+	display: inline-block;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	margin-left: 100px;
+	margin-bottom: 2px;
+}
+
+div.updated_date {
+	display: inline-block;
+	color: red;
+	margin-left: 20px;
+}
+
+div.contents {
+	margin-left: 20px;
+}
+
+.main h3 {
+	font-size: 18pt;
+}
+
+.main h4 {
+	font-size: 16pt;
+	margin-bottom: 10px;
+	border-bottom: #000 dashed 1px;
+}
+
+div.blk {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+div.blk_contents {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+div.blk_contents_title {
+	font-size: 14pt;
+	margin-bottom: 2px;
+}
+
+img {
+	margin-top:20px;
+}
+
+table.result  {
+	border-collapse: collapse;
+	border: 1px solid #9e906a;
+}
+
+table.result td, th {
+	border: 1px solid #9e906a;
+}
+table.result td {
+	text-align: left;
+	padding: 5px;
+}
+table.result thead th {
+	color: #4e2f00;
+	background-color: #d5c391;
+	font-size:12px;
+}
+table.result tbody th {
+	color: #4e2f00;
+	background-color: #f0ecdb;
+	text-align:left;
+	font-size:12px;
+	padding: 5px;
+}
+
+li {
+	padding: 1px;
+}
+
